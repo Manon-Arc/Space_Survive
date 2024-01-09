@@ -15,7 +15,6 @@ public class movements : MonoBehaviour
     {
         
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -25,5 +24,13 @@ public class movements : MonoBehaviour
 
         Vector3 movement = new Vector3(moveX, moveY);
         transform.Translate(movement * speed * Time.deltaTime);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("aste"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
