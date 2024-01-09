@@ -26,6 +26,6 @@ public class game_over : MonoBehaviour
 
     public void restartGame() 
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game");
     }
 }

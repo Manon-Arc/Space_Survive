@@ -6,10 +6,6 @@ using UnityEngine.UI;
 
 public class Movement : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
 
     void Update()
     {

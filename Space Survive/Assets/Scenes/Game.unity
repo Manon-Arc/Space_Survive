@@ -140,10 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0c73dc4c156f544bc0bd170904a386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SampleScene:
-    m_Handle: 0
-  area: {fileID: 1066008451}
-  compteur: {fileID: 0}
 --- !u!50 &155069899
 Rigidbody2D:
   serializedVersion: 4
@@ -533,12 +529,16 @@ PrefabInstance:
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8979698996919987880, guid: c3b7248e5f1c4fb44b578144802ae019, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8979698996919987880, guid: c3b7248e5f1c4fb44b578144802ae019, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8979698996919987880, guid: c3b7248e5f1c4fb44b578144802ae019, type: 3}
       propertyPath: m_EdgeRadius
-      value: 0.7
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8979698996919987880, guid: c3b7248e5f1c4fb44b578144802ae019, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
