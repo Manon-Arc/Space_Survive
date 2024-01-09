@@ -21,25 +21,9 @@ public class movements : MonoBehaviour
     {
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
-        float speed = 30;
-
-        //float max_X = SampleScene.max.x;
-        //float min_X = SampleScene.min.x;
-        //float max_Y = SampleScene.max.y;
-        //float minY = SampleScene.min.y;
-        Debug.Log("coordo ship en X : " + transform.position.x);
-        Debug.Log("coordo ship en Y : " + transform.position.y);
-        //Debug.Log("max X : " + max_X);
-        //Debug.Log("max Y : " + max_Y);
+        float speed = 10;
 
         Vector3 movement = new Vector3(moveX, moveY);
         transform.Translate(movement * speed * Time.deltaTime);
-
-        /*if (max_X > transform.position.x && min_X < transform.position.x && max_Y > transform.position.y && minY < transform.position.y)
-        {
-            Debug.Log("toto");
-
-        }*/
-
     }
 }
