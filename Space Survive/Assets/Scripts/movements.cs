@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-
-//using UnityEditor.SearchService;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
@@ -30,7 +28,7 @@ public class movements : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("aste"))
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("gameover");
         }
     }
 }
