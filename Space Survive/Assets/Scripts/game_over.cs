@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class game_over : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public TMP_Text scoreText;
+
     void Start()
     {
-        
+        int score = PlayerPrefs.GetInt("Score", 0);
+        scoreText.text = "Score : " + score.ToString();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown("space"))

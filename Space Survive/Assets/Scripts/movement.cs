@@ -2,18 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class movements : MonoBehaviour
+public class Movement : MonoBehaviour
 {
-    public Scene SampleScene;
-
-    public BoxCollider2D area;
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-    // Update is called once per frame
+
     void Update()
     {
         float moveX = Input.GetAxis("Horizontal");
@@ -28,7 +25,8 @@ public class movements : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("aste"))
         {
-            SceneManager.LoadScene("gameover");
+            PlayerPrefs.SetInt("Score", GameObject.Find("compteur").GetComponent<ScoreManager>().score);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
