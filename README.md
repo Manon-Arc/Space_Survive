@@ -54,7 +54,7 @@ git clone https://github.com/Manon-Arc/Space_survive.git
 
 ### 2. Lancement :
 
-Presser le bouton suivant :
+- Presser le bouton suivant :
 
 ![button](./img/button.png)
 
