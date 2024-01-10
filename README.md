@@ -1,4 +1,4 @@
-# Projet Unity : Space_survive
+# Projet Unity : SPACE SURVIVE
 
 par **ARCAS** Manon, **RAFFANEL** Guilhem *B2 informatique*
 
