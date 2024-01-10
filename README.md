@@ -44,13 +44,13 @@ Vous contrôlez un vaisseau dont le but est d'éviter des astéroîdes pour surv
 
 ### 1. Installation :
 
-Cloner le repo avec la commande suivante :
+- Cloner le repo avec la commande suivante :
 ```bash
 git clone https://github.com/Manon-Arc/Space_survive.git
 ```
-Ouvrir le projet depuis [Unity](https://unity.com/fr/download) :
+- Ouvrir le projet depuis [Unity](https://unity.com/fr/download)
 
-Cliquer sur Asset -> Scenes -> Menu
+- Cliquer sur Asset -> Scenes -> Menu
 
 ### 2. Lancement :
 
