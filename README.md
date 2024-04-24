@@ -8,22 +8,22 @@ The goal is simple : You control a spaceship whose goal is to avoid asteroids to
 ## 📌 Table of Contents :
    
 I. [Prerequisites](#🔧-prerequisites)  
-II. [Available Features](#🌟-i-available-features)  
-III. [How to Install the Project](#💻-ii-how-to-install-the-project)  
+II. [Available Features](#🌟-ii-available-features)  
+III. [How to Install the Project](#💻-iii-how-to-install-the-project)  
 
-## 🎯 Badges
+## 🎯 Badges :
 
 [![Csharp logo](https://img.shields.io/badge/Language-CSharp-green
 )](https://www.java.com/fr/)
 [![Unity logo](https://img.shields.io/badge/Software-Unity-black
 )](https://www.java.com/fr/)
 
-## 🔧 I. Prerequisites
+## 🔧 I. Prerequisites :
 
 - [Unity](https://unity.com/fr/download) installed on your system.
 
 
-## 🌟 I. Availables Features:
+## 🌟 II. Availables Features :
 
 - 3 scenes: menu, game, and game over,
 - Spaceship movement using directional arrows or z, q, s, d keys,
@@ -35,7 +35,7 @@ III. [How to Install the Project](#💻-ii-how-to-install-the-project)
 - Score displayed on the "game over" scene,
 - Ability to restart a game immediately after a game over by pressing *space*.
 
-## 💻 II. How to Install the Project:
+## 💻 III. How to Install the Project :
 
 ### 1. Installation :
 
