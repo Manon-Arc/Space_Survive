@@ -15,7 +15,7 @@ III. [How to Install the Project](#💻-ii-how-to-install-the-project)
 
 [![Csharp logo](https://img.shields.io/badge/Language-CSharp-green
 )](https://www.java.com/fr/)
-[![Unity logo](https://img.shields.io/badge/Logiciel-Unity-black
+[![Unity logo](https://img.shields.io/badge/Software-Unity-black
 )](https://www.java.com/fr/)
 
 ## 🔧 I. Prerequisites
