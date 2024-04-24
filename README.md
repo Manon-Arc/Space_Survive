@@ -7,7 +7,7 @@ The goal is simple : You control a spaceship whose goal is to avoid asteroids to
 
 ## 📌 Table of Contents :
    
-I. [Prerequisites](#🔧-prerequisites)  
+I. [Prerequisites](#🔧-i-prerequisites)  
 II. [Available Features](#🌟-ii-available-features)  
 III. [How to Install the Project](#💻-iii-how-to-install-the-project)  
 
