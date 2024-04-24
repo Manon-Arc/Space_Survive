@@ -23,7 +23,7 @@ III. [How to Install the Project](#💻-ii-how-to-install-the-project)
 - [Unity](https://unity.com/fr/download) installed on your system.
 
 
-## 🌟 I. Available Features:
+## 🌟 I. Availables Features:
 
 - 3 scenes: menu, game, and game over,
 - Spaceship movement using directional arrows or z, q, s, d keys,
