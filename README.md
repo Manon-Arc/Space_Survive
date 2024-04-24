@@ -1,46 +1,41 @@
-# Projet Unity : SPACE SURVIVE
+# Unity Project : SPACE SURVIVE
 
-par **ARCAS** Manon, **RAFFANEL** Guilhem *B2 informatique*
+by **ARCAS** Manon, **RAFFANEL** Guilhem
 
-I. [Présentation du projet](#i-présentation-du-projet)
+**Space survive** is a 2D arcade game !<br>
+The goal is simple : You control a spaceship whose goal is to avoid asteroids to survive as long as possible !
 
-II. [Fonctionnalités](#ii-fonctionnalités-disponibles)
+## 📌 Table of Contents :
+   
+I. [Prerequisites](#🔧-prerequisites)  
+II. [Available Features](#🌟-i-available-features)  
+III. [How to Install the Project](#💻-ii-how-to-install-the-project)  
 
-III. [Comment installer le projet](#iii-comment-installer-le-projet)
-1. [Installation](#1-installation)
-2. [Lancement](#2-lancement)
+## 🎯 Badges
 
-___
+[![Csharp logo](https://img.shields.io/badge/Language-CSharp-green
+)](https://www.java.com/fr/)
+[![Unity logo](https://img.shields.io/badge/Logiciel-Unity-black
+)](https://www.java.com/fr/)
 
-## I. Présentation du projet :
+## 🔧 I. Prerequisites
 
-**Space survive** est un jeu d'arcade en 2D !<br>
-
-Le but est simple : <br>
-Vous contrôlez un vaisseau dont le but est d'éviter des astéroîdes pour survivre le plus longtemps possible !<br>
+- [Unity](https://unity.com/fr/download) installed on your system.
 
 
-## II. Fonctionnalités disponibles :
+## 🌟 I. Available Features:
 
-- 3 scènes : menu, game et game over,
+- 3 scenes: menu, game, and game over,
+- Spaceship movement using directional arrows or z, q, s, d keys,
+- Spaceship cannot leave the game area,
+- Random generation of asteroid spawn points,
+- Real-time score displayed during the game,
+- Background music during the game,
+- Sound effect at the end of the game,
+- Score displayed on the "game over" scene,
+- Ability to restart a game immediately after a game over by pressing *space*.
 
-- Déplacements du vaisseau à l'aide des flèches directionnelles ou des touches z, q, s, d,
-
-- Impossibilité pour le vaisseau de sortir de la zone de jeu,
-
-- Génération aléatoire des points de spawn des astéroïdes,
-
-- Score affiché en temps réel durant la partie,
-
-- Musique de fond durant la partie,
-
-- Effet sonore à la fin de la partie,
-
-- Score affiché sur la scène "game over",
-
-- Possibilité de relancer directement une partie à la suite d'un game over en pressant *espace*.
-
-## III. Comment installer le projet :
+## 💻 II. How to Install the Project:
 
 ### 1. Installation :
 
@@ -48,13 +43,13 @@ Vous contrôlez un vaisseau dont le but est d'éviter des astéroîdes pour surv
 ```bash
 git clone https://github.com/Manon-Arc/Space_survive.git
 ```
-- Ouvrir le projet depuis [Unity](https://unity.com/fr/download)
+- Open the project from [Unity](https://unity.com/fr/download)
 
-- Cliquer sur Asset -> Scenes -> Menu
+- Click on Asset -> Scenes -> Menu
 
-### 2. Lancement :
+### 2. Lauch :
 
-- Presser le bouton suivant :
+- Press the following button :
 
 ![button](./img/button.png)
 
